@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>You can leave your information on our website</p>
+    <br /><br />
+    <p>
+      Visit <a href="./html files/index.html">Our website </a>for more
+      information!
+    </p>
+    <br />
+    <h2>Our Users</h2>
+    <br />
+    <table>
+      <thead>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>john@gmail.com</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Umida</td>
+          <td>Umida@gmail.com</td>
+          <td>Female</td>
+        </tr>
+        <tr>
+          <td>Martin</td>
+          <td>Martin@gmail.com</td>
+          <td>Male</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Please full fill all input</h2>
+    <br />
+    <form action="http://72.62.64.192:3333/post" method="post">
+      <label for="name"> Name:</label>
+      <input type="text" name="name" placeholder="User" /><br /><br />
+      <label for="Email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="email@email.com"
+      /><br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        placeholder="password"
+      /><br /><br />
+
+      <label for="Gender"> Gender:</label>
+      <input type="radio" name="Gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="female" value="female" />
+      <label for="Female">Female</label><br /><br />
+
+      <label for="Country">Country:</label>
+      <select name="Country" id="Country">
+        <option value="" selected disabled>select Country</option>
+        <option value="Uzb">Uzbekistan</option>
+        <option value="Eng">England</option>
+        <option value="Esp">Spain</option></select
+      ><br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+    spa
+  </body>
+</html>
