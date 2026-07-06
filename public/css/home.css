@@ -145,6 +145,26 @@
     display: flex;
     flex-direction: column;
 }
+.number{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 15px;
+    height: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50% ;
+    background-color: #f5c34b;
+    color: rgba(11, 30, 64, 1);
+    font-family: "Jost";
+    font-style: Bold;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 .box-info-box span{
 color: rgba(255, 255, 255, 1);
 font-family: "Jost";
@@ -178,11 +198,12 @@ text-align: left;
     flex-direction: row;
     justify-content: space-betweens;
 }.navbar-bott .browse-box{
+    margin-right: 10px;
     width: 185px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-right: 1 px solid #5747a2;
+    border-right: 1px solid #a89ae8;
 }
 .browse-box span{
 color: rgba(255, 255, 255, 1);
