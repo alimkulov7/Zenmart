@@ -786,7 +786,7 @@ text-align: left;
     
     
  }
- .tv-top-links .tv-link-box{
+ .tv-frame .tv-top-links .tv-link-box{
     position: relative;
     width: 523px;
     height: auto;
@@ -795,7 +795,7 @@ text-align: left;
     flex-direction: row;
     justify-content: space-between;
  }
- .tv-top-links span{
+ .tv-frame .tv-top-links span{
     margin-right: 521px;
     color: rgba(4, 30, 66, 1);
 
@@ -807,7 +807,7 @@ line-height: 40px;
 letter-spacing: 0%;
 text-align: left;
  }
- .tv-link-box a{
+ .tv-frame .tv-link-box a{
 
     font-family: "Jost";
 font-style: Medium;
@@ -827,10 +827,10 @@ text-align: right;
 
     background: #041e42;
 }
- .tv-link-box a:hover .hover-border{
+ .tv-frame .tv-link-box a:hover .hover-border{
     display: flex;
  }
- .tv-wrapper{
+ .tv-frame .tv-wrapper{
     position: relative;
     width: 100%;
     height: auto;
@@ -840,15 +840,15 @@ text-align: right;
    
     align-items: center;
  }
- .box-tv-box{
+ .tv-frame .box-tv-box{
     position: relative;
     margin-right: 27px;
  }
- .tv-wrapper .next-button-box{
+ .tv-frame .tv-wrapper .next-button-box{
     margin-right: 27px;
  }
 
- .tv-details .tv-name{
+ .tv-frame .tv-details .tv-name{
     color: rgba(98, 105, 116, 1);
 
 font-family: "Jost";
@@ -860,7 +860,7 @@ letter-spacing: 0%;
 text-align: left;
 text-transform: uppercase;
  }
- .tv-details .tv-product-desc{
+ .tv-frame .tv-details .tv-product-desc{
     width: 222px;
     height:50px;
     display: -webkit-box;
@@ -875,7 +875,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 28px;
  }
- .tv-details .span{
+ .tv-frame .tv-details .span{
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
 
@@ -887,7 +887,7 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
  }
- .tv-price-box strong{
+ .tv-frame .tv-price-box strong{
     margin-right: 10px;
     color: rgba(4, 30, 66, 1);
 
@@ -899,7 +899,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
  }
- .tv-review-box span{
+ .tv-frame .tv-review-box span{
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
 
@@ -911,7 +911,7 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
  }
- .tv-price-box span{
+ .tv-frame .tv-price-box span{
     color: rgba(98, 105, 116, 1);
 
 font-family: "Jost";
@@ -923,6 +923,206 @@ letter-spacing: 0%;
 text-align: left;
 text-decoration-line: line-through;
  }
+ /* EVENTS FRAME */
+.events-frame{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    
+    
+    
+}
+.events-frame .container{
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.events-frame .events-wrapper{
+    position: relative;
+    width: 1277px;
+    height: 392px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.event-details-box{
+    margin-left: 150px;
+    position: relative;
+    width: 334px;
+    height: 214px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-time-box{
+   
+    position: relative;
+    width: 333px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.date-time-box strong{
+    color: rgba(255, 255, 255, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.date-time-box p{
+    color: rgba(255, 255, 255, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.event-details-box span{
+    color: rgba(255, 255, 255, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}.event-details-box a{
+    position: relative;
+    width: 142px;
+    height: 52px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 6px;
+background: rgba(255, 255, 255, 1);
+}
+.box-events-box{
+    
+    margin-left: 9px;
+position: relative;
+width: auto;
+height: auto;
+
+display: flex;
+flex-direction: column;
+border-radius: 6px;
+background: rgba(255, 255, 255, 1);
+}
+.box-event-details{
+    padding: 0px 17px 10px 17px;
+    position: relative;
+    box-sizing: border-box;
+}
+.box-event-image-box{
+    position: relative;
+    width: auto;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-brand-name{
+    color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 13px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.event-product-desc{
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+
+display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.event-review-box span{
+    margin-left: 10px;
+    color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.event-price-box{
+    position: relative;
+    width: 88px;
+    height: auto;
+
+}
+.event-price-box strong{
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.event-price-box span{
+    margin-left: 10px;
+    color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: line-through;
+}
+.next-button-box-oppsite{
+    margin-left: 8px;
+    position: relative;
+    
+}
 
 
 
