@@ -415,5 +415,203 @@ line-height: 40px;
 letter-spacing: 0%;
 text-align: left;
 }
+.media-section{
+    position: relative;
+    width: 154px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.media-section .media-top{
+    margin-bottom: 30px;
+    position: relative;
+    width: auto;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+.media-top span{
+    margin-bottom: 30px;
+
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.media-top .media-icons{
+    position: relative;
+    width: 154px;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.media-bottom{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.media-bottom span{
+    margin-bottom: 25px;
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.mobile-app-details{
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: 16px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.mobile-app-details p{
+    margin-left: 20px;
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+
+letter-spacing: 0%;
+
+
+}
+.mobile-app-details .mobile-image-icon-box{
+    width: auto;
+    height: 16px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.payment-section{
+    margin-top: 130px;
+    position: relative;
+    width: 280px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.payment-section span{
+    margin-bottom: 30px;
+
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.payment-section .payment-section-icons{
+    position: relative;
+    width: 100%;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-bottom{
+    margin-top: 90px;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgba(234, 234, 234, 1);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-bottom p{
+    margin-right: 66px;
+}
+.bottom-privacy-box span{
+
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.currency-option-box{
+    margin-left: 460px;
+    position: relative;
+    width: 400px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.currency-option-box span{
+    color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.currency-option-box .box-currency-box{
+    position: relative;
+    width: 187px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    border: 1px solid rgba(234, 234, 234, 1);
+    background-color: rgba(234, 234, 234, 1);
+    border-radius: 5px;
+}
+.box-currency-box select{
+    border: none;
+    outline: none;
+}
+.box-currency-box option{
+    border: none;
+    outline: none;
+    background: none;
+   
+}
+
+
 
 
