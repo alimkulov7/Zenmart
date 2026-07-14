@@ -266,5 +266,154 @@ font-weight: 400;
 text-align: right;
 
 }
+/* FOOTER FRAME */
+.footer-frame{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+    background: rgba(243, 245, 246, 1);
+
+}
+.footer-frame .container{
+    margin-top: 90px;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-top{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-section{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.contact-section strong{
+    margin-bottom: 30px;
+
+}
+.contact-section .contact-box .box-icon-detail{
+    margin-bottom: 30px;
+    position: relative;
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.contact-section strong{
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.contact-details span{
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.contact-details p{
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.support-section{
+    position: relative;
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.support-section span{
+    margin-bottom: 30px;
+
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.support-section a{
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.service-section{
+    position: relative;
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.service-section span{
+    margin-bottom: 30px;
+
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.service-section a{
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
 
 
