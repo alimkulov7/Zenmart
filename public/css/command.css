@@ -1,3 +1,6 @@
+:root {
+    --font: "Jost";
+}
 html,
 body{
     margin: 0;
@@ -44,7 +47,7 @@ p{
 }
 
 .navbar-top a img{
-    margin-right: 76px;
+    
     width: 117px;
     height: 36px;
 }
@@ -86,10 +89,10 @@ p{
     color: rgba(4, 30, 66, 1);
     color: rgba(4, 30, 66, 1);
 
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: Regular;
     font-size: 15px;
-    ont-weight: 400;
+    font-weight: 400;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
@@ -175,7 +178,7 @@ p{
     border-radius:50% ;
     background-color: #f5c34b;
     color: rgba(11, 30, 64, 1);
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: Bold;
     font-size: 8px;
     font-weight: 700;
@@ -185,7 +188,7 @@ p{
 }
 .box-info-box span{
 color: rgba(255, 255, 255, 1);
-font-family: "Jost";
+font-family: var(--font);
 font-size: undefinedpx;
 font-weight: undefined;
 line-height: 22px;
@@ -194,7 +197,7 @@ text-align: left;
 }
 .box-info-box strong{
 color: rgba(255, 255, 255, 1);
-font-family: "Jost";
+font-family: var(--font);
 font-size: undefinedpx;
 font-weight: undefined;
 line-height: 22px;
@@ -225,7 +228,7 @@ text-align: left;
 }
 .browse-box span{
 color: rgba(255, 255, 255, 1);
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 16px;
 font-weight: 500;
@@ -246,7 +249,7 @@ text-align: left;
 }
 .navbar-route-menu a{
 margin-right: 10px;
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 16px;
 font-weight: 500;
@@ -260,7 +263,7 @@ color: #fff;
 .sorting-menu span{
 margin-left: 10px;
 color: rgba(255, 255, 255);
-font-family: Jost;
+font-family: var(--font);
 font-size: 16px;
 font-weight: 400;
 text-align: right;
@@ -318,7 +321,7 @@ text-align: right;
 .contact-section strong{
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 18px;
 font-weight: 500;
@@ -329,7 +332,7 @@ text-align: left;
 .contact-details span{
 color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 15px;
 font-weight: 500;
@@ -340,7 +343,7 @@ text-align: left;
 .contact-details p{
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 15px;
 font-weight: 400;
@@ -362,7 +365,7 @@ text-align: left;
 
 color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 18px;
 font-weight: 500;
@@ -374,7 +377,7 @@ text-align: left;
 .support-section a{
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 14px;
 font-weight: 400;
@@ -396,7 +399,7 @@ text-align: left;
 
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 18px;
 font-weight: 500;
@@ -407,7 +410,7 @@ text-align: left;
 .service-section a{
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 14px;
 font-weight: 400;
@@ -438,7 +441,7 @@ text-align: left;
 
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 18px;
 font-weight: 500;
@@ -469,7 +472,7 @@ text-align: left;
     margin-bottom: 25px;
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 18px;
 font-weight: 500;
@@ -491,7 +494,7 @@ text-align: left;
     margin-left: 20px;
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 14px;
 font-weight: 400;
@@ -523,7 +526,7 @@ letter-spacing: 0%;
 
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 18px;
 font-weight: 500;
@@ -558,7 +561,7 @@ text-align: left;
 
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 14px;
 font-weight: 400;
@@ -581,7 +584,7 @@ text-align: left;
 .currency-option-box span{
     color: rgba(98, 105, 116, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 14px;
 font-weight: 400;

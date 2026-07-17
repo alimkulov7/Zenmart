@@ -1,5 +1,4 @@
 
-
 .home-page{
     display: flex;
     flex-direction: column;
@@ -413,22 +412,18 @@
     .selling-products-frame .category-top a:hover{
         border-bottom: 2px solid rgba(4, 30, 66, 1);
     } 
-    .swiper{
-      width: 100%;
-      height: 100%;
-    }
-    .swiper-wrapper{
+    .selling-products-wrapper{
         margin-top: 56px;
         position: relative;
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     
-    .swiper-slide{
+    .selling-products-box{
         position: relative;
         width: 251px;
         height: auto;
@@ -439,18 +434,16 @@
     }
     
     
-    .swiper-slide .box-image img{
-      display: block;
+    .selling-products-box .box-image img{
         
-        
+        background-size: cover;
     }
-    .swiper-slide .box-image{
+    .selling-products-box .box-image{
         position: relative;
-        display: block;
         width: auto;
         height: auto;
     }
-    .swiper-slide .box-image .hover-box{
+    .selling-products-box .box-image .hover-box{
         position: absolute;
         bottom: -100px;
         width: 100%;
@@ -460,12 +453,12 @@
         justify-content: center;
         align-items: center;
     }
-    .swiper-slide .box-image:hover .hover-box{
+    .selling-products-box .box-image:hover .hover-box{
         display: flex;
     }
 
    
-    .swiper-slide .hover-box button{
+    .selling-products-box .hover-box button{
         
         width: 200px;
         height: 50px;
@@ -490,7 +483,7 @@
 
 
     }
-    .swiper-slide .box-details{
+    .selling-products-box .box-details{
         margin: 25px;
         width: 100%;
         height: auto;
@@ -499,7 +492,7 @@
         flex-direction: column;
 
     }
-    .swiper-slide .box-details .brand-name{
+    .selling-products-box .box-details .brand-name{
     color: rgba(98, 105, 116, 1);
     font-family: "Jost";
     font-style: Regular;
@@ -510,7 +503,7 @@
     text-align: left;
     text-transform: uppercase;
     }
-    .swiper-slide .box-details .product-desc{
+    .selling-products-box .box-details .product-desc{
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
     font-style: Medium;
@@ -520,7 +513,7 @@
     letter-spacing: 0%;
     text-align: left;
     }
-    .swiper-slide .review-box span{
+    .selling-products-box .review-box span{
         margin-left: 10px;
     color: rgba(98, 105, 116, 1);
     font-family: "Jost";
@@ -531,7 +524,7 @@
     letter-spacing: 0%;
     text-align: left;
     }
-    .swiper-slide .price-box strong{
+    .selling-products-box .price-box strong{
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
     font-style: Medium;
@@ -541,7 +534,7 @@
     letter-spacing: 0%;
     text-align: left;
     }
-    .swiper-slide.price-box span{
+    .selling-products-box .price-box span{
         margin-left: 6px;
     color: rgba(98, 105, 116, 1);
     font-family: "Jost";
@@ -553,8 +546,51 @@
     text-align: left;
     text-decoration-line: line-through;
     }
-    
+    .pagination-box .pagination-arrow:hover{
+        cursor: pointer;
+    }
+    .pagination-box{
+        margin-top: 10px;
+        width: 100%;
+        height: 24px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .pagination-main{
+        width: auto;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pagination-dot-box{
+        margin-right: 10px;
+        position: relative;
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .pagination-dot{
+        
+        
+        width: 4px;
+        height: 4px;
+        background: rgba(17, 33, 55, 1);;
+        border-radius: 50%;
+    }
+    .pagination-dot-box:hover{
+        box-sizing: border-box;
+        border: 2px solid rgba(17, 33, 55, 1);
+        border-radius: 50%;
+    }
  /* TOP SELLING PRODUCTS  END!*/
 
  .members-ad-frame{
@@ -584,7 +620,7 @@
 
 .spec-product-frame{
     position: relative;
-    margin-top: 90px;/*  */
+    margin-top: 90px;
     width: 100%;
     height: auto;
 
@@ -794,7 +830,7 @@ text-align: right;
  .tv-frame .tv-link-box a:hover .hover-border{
     display: flex;
  }
- .tv-frame .tv-wrapper{
+ /* .tv-frame .tv-wrapper{
     position: relative;
     width: 100%;
     height: auto;
@@ -803,14 +839,16 @@ text-align: right;
     flex-direction: row;
    
     align-items: center;
- }
+ } */
  .tv-frame .box-tv-box{
-    position: relative;
-    margin-right: 27px;
+    width: 100%;
+    height: 100%;
+
+    
  }
- .tv-frame .tv-wrapper .next-button-box{
+ /* .tv-frame .tv-wrapper .next-button-box{
     margin-right: 27px;
- }
+ } */
 
  .tv-frame .tv-details .tv-name{
     color: rgba(98, 105, 116, 1);
@@ -912,7 +950,7 @@ text-decoration-line: line-through;
     flex-direction: row;
     align-items: center;
 }
-.event-details-box{
+.events-frame .event-details-box{
     margin-left: 150px;
     position: relative;
     width: 334px;
@@ -922,7 +960,7 @@ text-decoration-line: line-through;
     flex-direction: column;
     justify-content: space-between;
 }
-.box-time-box{
+.events-frame .box-time-box{
    
     position: relative;
     width: 333px;
@@ -931,7 +969,7 @@ text-decoration-line: line-through;
     justify-content: space-between;
 
 }
-.date-time-box strong{
+.events-frame .date-time-box strong{
     color: rgba(255, 255, 255, 1);
 
 font-family: "Jost";
@@ -942,7 +980,7 @@ line-height: 40px;
 letter-spacing: 0%;
 text-align: left;
 }
-.date-time-box p{
+.events-frame .date-time-box p{
     color: rgba(255, 255, 255, 1);
 
 font-family: "Jost";
@@ -953,7 +991,7 @@ line-height: 28px;
 letter-spacing: 0%;
 text-align: left;
 }
-.event-details-box span{
+.events-frame .event-details-box span{
     color: rgba(255, 255, 255, 1);
 
 font-family: "Jost";
@@ -963,7 +1001,8 @@ font-weight: 500;
 line-height: 40px;
 letter-spacing: 0%;
 text-align: left;
-}.event-details-box a{
+}
+.events-frame .event-details-box a{
     position: relative;
     width: 142px;
     height: 52px;
@@ -987,7 +1026,7 @@ border: 1px solid rgba(255, 255, 255, 1);
 border-radius: 6px;
 background: rgba(255, 255, 255, 1);
 }
-.box-events-box{
+.events-frame .box-events-box{
     
     margin-left: 9px;
 position: relative;
@@ -999,12 +1038,12 @@ flex-direction: column;
 border-radius: 6px;
 background: rgba(255, 255, 255, 1);
 }
-.box-event-details{
+.events-frame .box-event-details{
     padding: 0px 17px 10px 17px;
     position: relative;
     box-sizing: border-box;
 }
-.box-event-image-box{
+.events-frame .box-event-image-box{
     position: relative;
     width: auto;
     height: 220px;
@@ -1012,7 +1051,7 @@ background: rgba(255, 255, 255, 1);
     justify-content: center;
     align-items: center;
 }
-.event-brand-name{
+.events-frame .event-brand-name{
     color: rgba(98, 105, 116, 1);
 
 font-family: "Jost";
@@ -1024,7 +1063,7 @@ letter-spacing: 0%;
 text-align: left;
 text-transform: uppercase;
 }
-.event-product-desc{
+.events-frame .event-product-desc{
     color: rgba(4, 30, 66, 1);
 
 font-family: "Jost";
@@ -1040,7 +1079,7 @@ display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.event-review-box span{
+.events-frame .event-review-box span{
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
 
@@ -1052,13 +1091,13 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
 }
-.event-price-box{
+.events-frame .event-price-box{
     position: relative;
     width: 88px;
     height: auto;
 
 }
-.event-price-box strong{
+.events-frame .event-price-box strong{
 color: rgba(4, 30, 66, 1);
 
 font-family: "Jost";
@@ -1069,7 +1108,7 @@ line-height: 28px;
 letter-spacing: 0%;
 text-align: left;
 }
-.event-price-box span{
+.events-frame .event-price-box span{
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
 
@@ -1082,7 +1121,7 @@ letter-spacing: 0%;
 text-align: left;
 text-decoration-line: line-through;
 }
-.next-button-box-oppsite{
+.events-frame .next-button-box-oppsite{
     margin-left: 8px;
     position: relative;
     
